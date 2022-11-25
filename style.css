@@ -1,0 +1,62 @@
+body{
+  background: linear-gradient(to right, #75bbe4, #4548e6fa); 
+    
+}
+
+.title{
+    font-size: 55px;
+    text-align: center;
+    font-weight: 800;
+    color: rgb(16, 5, 17);
+    margin-top: -75px;   
+}
+
+.title .title-gif{
+    margin-top: -50px;
+}
+
+a{
+    color: rgb(10, 4, 2);
+    font-size: 25px;
+   
+}
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.img-samosa,.img-chicken-tikka-masala,.img-gulab-jamun{
+    height: 500px;
+    width : auto;
+}
+
+.img-samosa{
+    margin-top: 15px;
+    margin-left: 75px;
+}
+
+.img-chicken-tikka-masala{
+    margin-top: 15px;
+    margin-left: 250px;
+
+}
+
+.img-gulab-jamun{
+    margin-top: 15px;
+    margin-left: 275px;
+}
+
+
+.samosa{
+   margin-left: 200px;
+}
+
+.chicken-tikka-masala{
+    margin-left: 430px ;
+}
+
+.gulab-jamun{
+    margin-left: 420px;
+}
+
+
