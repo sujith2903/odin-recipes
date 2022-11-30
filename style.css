@@ -1,14 +1,16 @@
 body{
   background: linear-gradient(to right, #75bbe4, #4548e6fa); 
-    
+
 }
 
 .title{
     font-size: 55px;
     text-align: center;
     font-weight: 800;
-    color: rgb(16, 5, 17);
+    color: rgb(250, 46, 31);
     margin-top: -75px;   
+    text-shadow: 5px 5px 1px rgb(0, 0, 0);
+    
 }
 
 .title .title-gif{
@@ -18,6 +20,7 @@ body{
 a{
     color: rgb(10, 4, 2);
     font-size: 25px;
+
    
 }
 
@@ -30,33 +33,19 @@ a{
     width : auto;
 }
 
-.img-samosa{
-    margin-top: 15px;
-    margin-left: 75px;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
 }
 
-.img-chicken-tikka-masala{
-    margin-top: 15px;
-    margin-left: 250px;
+.samosa,.chicken-tikka-masala,.gulab-jamun{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
 }
-
-.img-gulab-jamun{
-    margin-top: 15px;
-    margin-left: 275px;
-}
-
-
-.samosa{
-   margin-left: 200px;
-}
-
-.chicken-tikka-masala{
-    margin-left: 430px ;
-}
-
-.gulab-jamun{
-    margin-left: 420px;
-}
-
-
